@@ -2431,7 +2431,7 @@ elif nav == "👨‍💼 Admin Panel":
                                 sub["id"], sub["tourist_id"], "Rejected",
                                 0, st.session_state.get("admin_username", "admin"),
                             )
-                            st.rerun()
+                            st.rerun() #hi
 
         with tab3:
             st.subheader("Assign Badge Ratings")
